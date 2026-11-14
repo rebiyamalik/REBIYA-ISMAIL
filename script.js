@@ -1,0 +1,8 @@
+(() => {
+ const toggle=document.querySelector('.menu-toggle'),nav=document.querySelector('.site-nav');
+ if(toggle&&nav){toggle.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',String(!open));toggle.setAttribute('aria-label',open?'Open navigation':'Close navigation');nav.classList.toggle('is-open',!open)});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('is-open');toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Open navigation')}))}
+ const year=document.getElementById('year');if(year)year.textContent=new Date().getFullYear();
+ const phrases=['Full-Stack Web Developer','Mathematics Student','AI & Automation Enthusiast'],target=document.getElementById('typing-text'),reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+ if(target&&!reduced){let p=0,n=phrases[0].length,del=true;const tick=()=>{if(del){n--;target.textContent=phrases[p].slice(0,n);if(n<=0){del=false;p=(p+1)%phrases.length}}else{n++;target.textContent=phrases[p].slice(0,n);if(n>=phrases[p].length){del=true;return window.setTimeout(tick,1500)}}window.setTimeout(tick,del?42:72)};window.setTimeout(tick,1800)}
+ const items=document.querySelectorAll('.reveal');if('IntersectionObserver'in window&&!reduced){const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-visible');observer.unobserve(e.target)}}),{threshold:.12});items.forEach(el=>observer.observe(el))}else items.forEach(el=>el.classList.add('is-visible'));
+})();
