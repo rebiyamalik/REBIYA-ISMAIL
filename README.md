@@ -1,69 +1,55 @@
-# Hi, I'm Rebiya Ismail 👋
+# Rebiya Ismail — Personal Portfolio
 
-### Mathematics Student | Aspiring Web Developer | AI & Automation Enthusiast
+A responsive personal portfolio presenting my work across web development, AI, automation, mathematics, and student technology leadership.
 
-I'm a Mathematics undergraduate at **Bahauddin Zakariya University (BZU), Multan, Pakistan**, interested in building practical technology solutions. I enjoy combining analytical thinking with web development, AI tools, and automation to turn ideas into useful projects.
+**Tagline:** Where Mathematics Meets Technology.
 
-- 🎓 **Education:** BS Mathematics — Bahauddin Zakariya University (2023–2026)
-- 📍 **Location:** Multan, Pakistan
-- 🚀 **Currently exploring:** AI-assisted development, n8n workflows, agentic AI, and data-driven applications
-- 🤝 **Community:** President, Zakariyan Google Developer Club — CASPAM Chapter (ZGDC-CASPAM)
+## Run locally
 
----
+No build step or API keys are required.
 
-## 🛠️ Skills & Technologies
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rebiyamalik/REBIYA-ISMAIL.git
+   cd REBIYA-ISMAIL
+   ```
+2. Open `index.html` in a browser, or use the VS Code Live Server extension.
 
-**Programming & Web**
-- Python, PHP
-- HTML, CSS, JavaScript
-- Object-Oriented Programming
-- Responsive web development
+## Project structure
 
-**AI & Automation**
-- Prompt engineering and AI-assisted development
-- Google AI Studio
-- n8n workflow automation
-- Chatbot building and API integration
+```
+.
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
-**Data & Productivity**
-- SQL, Advanced Excel
-- Maple
-- Git & GitHub
-- Figma, Canva, and Microsoft Office
+## Built with
 
----
+- HTML5 and semantic page structure
+- CSS3, responsive layouts, and reduced-motion support
+- Vanilla JavaScript for navigation, reveal effects, and hero text animation
+- Google Fonts (DM Sans and Space Grotesk)
 
-## 💻 Selected Projects
+## Deploy on Vercel
 
-A few projects and experiments I've worked on:
+1. Import `rebiyamalik/REBIYA-ISMAIL` into Vercel.
+2. Select **Other** as the framework preset if prompted.
+3. This is a static site; no build command or API keys are needed.
+4. Deploy.
 
-| Project | What it does |
-|---|---|
-| [Smart Inventory Analyst](https://github.com/rebiyamalik/smart-inventory-vercel) | A web-based inventory analysis project focused on turning spreadsheet data into useful insights. |
-| [Chessboard](https://github.com/rebiyamalik/chessbaord) | A chess interface project exploring an interactive chess experience. |
-| [ZGDC-CASPAM Chapter Website](https://github.com/rebiyamalik/ZGDC-CASPAM-Chapter) | Website for the Zakariyan Google Developer Club — CASPAM Chapter. |
-| [Code Meet 2025](https://rebiyamalik.github.io/CODE-MEET-2025/) | Event website for a student-focused technology and Agentic AI event. |
+The site can also be hosted with GitHub Pages.
 
----
+## Before publishing
 
-## 🌱 What I'm Working Towards
+- Verify the current semester and education dates.
+- Add a professional email address only when ready; no email address is fabricated.
+- Review project descriptions and links before sharing the portfolio publicly.
 
-- Improving my frontend and backend development skills.
-- Building useful AI-powered web applications.
-- Learning to connect APIs, chatbots, and automation workflows.
-- Applying mathematical and analytical thinking to real-world data problems.
-- Contributing to a collaborative student developer community.
+## Accessibility
 
----
-
-## 🤝 Let's Connect
-
-- **Portfolio:** [rebiyamalik.vercel.app](https://rebiyamalik.vercel.app)
-- **LinkedIn:** [Rebiya Ismail](https://www.linkedin.com/in/rebiya-ismail-b3b5252ba/)
-- **GitHub:** [@rebiyamalik](https://github.com/rebiyamalik)
-
----
-
-<p align="center">
-  <i>Learning by building. Growing by sharing. Creating with purpose.</i>
-</p>
+- Responsive navigation with an accessible expanded state
+- Visible keyboard focus styles
+- Reduced-motion preference support
+- No framework, build tooling, API keys, or paid services required
